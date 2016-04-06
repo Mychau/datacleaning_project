@@ -103,10 +103,17 @@ In the set Tidydata.txt, these variables have been made more explicit:
   - t=time
   - f=frequency
   - replace "BodyBody" by Body
-  - replace the functions with by the name with majuscule for a better understanding
+  - replace the functions with by the name with majuscule for a better understanding:
+        mean-->Mean
+        std-->STD
+        meanFreq-->MeanFreq
 
 #Files
-The set AllMeanSTD.txt presents the standard deviation and the mean of the variables
-The set Tidydata.txt presents the mean of previous set by activity and subject
+The set AllMeanSTD.txt presents the standard deviation and the mean of the variables by subject and by activity
+The set Tidydata.txt presents the mean of previous set by activity and subject.
+
+The different steps and the code to obtain these sets from the original data is described in the run_analysis.R file, and in the README.md file.
+
+
 
 

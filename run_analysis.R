@@ -52,7 +52,7 @@ for (i in 1:6) {
 #  - t=time
 #  - f=frequency
 #  We can replace "BodyBody" by Body
-#  We can replace the functions with () by the name without parenthesis
+#  We can replace the functions with () by the name with majuscule
 names(allMeanSTD)<-gsub("^t", "time", names(allMeanSTD))
 names(allMeanSTD)<-gsub("^f", "frequency", names(allMeanSTD))
 names(allMeanSTD)<-gsub("BodyBody", "Body", names(allMeanSTD))
